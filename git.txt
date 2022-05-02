@@ -1,0 +1,39 @@
+### Create a new repository on the command line
+echo "# Python" >> README.md
+git init
+
+touch .gitignore
+__pycache__/
+data.db
+.DS_Store
+
+git add README.md
+git add .
+git commit -m "first commit"
+git status
+git branch -M main
+git remote add origin https://github.com/amr-khalil/Python.git
+git push -u origin main
+
+### Push an existing repository from the command line
+git pull origin main 
+git push origin main
+git remote add origin https://github.com/amr-khalil/Python.git
+git branch -M main
+git push -u origin main
+
+# Push only the new folder or new changes
+git commit -am "what happend?"
+git push
+
+# Push new branch
+git branch new/new-branch
+git checkout new/new-branch
+
+git checkout main
+git merge new/new-branch
+git push
+git push --set-upstream origin main
+
+### Remove .git folder
+rm -rf .git
