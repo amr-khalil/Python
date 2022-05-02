@@ -12,8 +12,8 @@ This Project is implemented using Django and Flutter, and is a REST API for a to
 ## Images
 
 ### Screen 1 - Main View
-<img src="imgs/todoapp_1.png" alt="drawing" width="300"/>
+<img src="imgs/todoapp_1.png" alt="Todo App" width="400"/>
 
 ### Screen 2 - Add Task
-<img src="imgs/todoapp_2.png" alt="drawing" width="300"/>
+<img src="imgs/todoapp_2.png" alt="Todo App" width="400"/>
 
