@@ -22,6 +22,8 @@ git remote add origin https://github.com/amr-khalil/Python.git
 git branch -M main
 git push -u origin main
 
+git push -f origin main
+
 # Push only the new folder or new changes
 git commit -am "what happend?"
 git push
